@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/02/13 22:20:55.000.990,F:\Coding\Codes\W2kXpCJK\DllMain.dproj=C:\Users\MRMao\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2021/02/15 20:39:45.000.082,=F:\Coding\Codes\W2kXpCJK\Unit1.pas</Transaction>
+    <Transaction>2021/02/15 20:40:17.000.968,F:\Coding\Codes\W2kXpCJK\UnitHookDll.pas=F:\Coding\Codes\W2kXpCJK\Unit1.pas</Transaction>
+    <Transaction>2021/02/15 20:45:40.000.857,F:\Coding\Codes\W2kXpCJK\DllHookMain.dproj=F:\Coding\Codes\W2kXpCJK\DllMain.dproj</Transaction>
+    <Transaction>2021/02/19 16:53:42.000.828,=F:\Coding\Codes\W2kXpCJK\UGBBig5Convert.pas</Transaction>
+    <Transaction>2021/02/19 20:38:13.000.923,F:\Coding\Codes\W2kXpCJK\APIHook.dproj=F:\Coding\Codes\W2kXpCJK\DllHookMain.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

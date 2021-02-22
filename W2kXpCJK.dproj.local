@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2021/02/13 22:25:17.000.327,=C:\Users\MRMao\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2021/02/13 22:26:04.000.045,C:\Users\MRMao\Documents\Embarcadero\Studio\Projects\Unit1.pas=F:\Coding\Codes\W2kXpCJK\W2kXpCJK.pas</Transaction>
+    <Transaction>2021/02/13 22:26:04.000.045,C:\Users\MRMao\Documents\Embarcadero\Studio\Projects\Unit1.dfm=F:\Coding\Codes\W2kXpCJK\W2kXpCJK.dfm</Transaction>
+    <Transaction>2021/02/13 22:28:54.000.966,C:\Users\MRMao\Documents\Embarcadero\Studio\Projects\Project1.dproj=F:\Coding\Codes\W2kXpCJK\W2kXpCJKMain.dproj</Transaction>
+    <Transaction>2021/02/19 20:41:55.000.444,F:\Coding\Codes\W2kXpCJK\W2kXpCJK.pas=F:\Coding\Codes\W2kXpCJK\W2kXpCJKUnit.pas</Transaction>
+    <Transaction>2021/02/19 20:41:55.000.444,F:\Coding\Codes\W2kXpCJK\W2kXpCJK.dfm=F:\Coding\Codes\W2kXpCJK\W2kXpCJKUnit.dfm</Transaction>
+    <Transaction>2021/02/19 20:42:25.000.041,F:\Coding\Codes\W2kXpCJK\W2kXpCJKMain.dproj=F:\Coding\Codes\W2kXpCJK\W2kXpCJK.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

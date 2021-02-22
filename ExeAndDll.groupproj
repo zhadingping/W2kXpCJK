@@ -1,0 +1,48 @@
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{65ACEE07-22DB-4315-8422-DEA81608803E}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="APIHook.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="W2kXpCJK.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="APIHook">
+        <MSBuild Projects="APIHook.dproj"/>
+    </Target>
+    <Target Name="APIHook:Clean">
+        <MSBuild Projects="APIHook.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="APIHook:Make">
+        <MSBuild Projects="APIHook.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="W2kXpCJK">
+        <MSBuild Projects="W2kXpCJK.dproj"/>
+    </Target>
+    <Target Name="W2kXpCJK:Clean">
+        <MSBuild Projects="W2kXpCJK.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="W2kXpCJK:Make">
+        <MSBuild Projects="W2kXpCJK.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="APIHook;W2kXpCJK"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="APIHook:Clean;W2kXpCJK:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="APIHook:Make;W2kXpCJK:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
